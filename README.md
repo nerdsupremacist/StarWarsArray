@@ -1,5 +1,5 @@
 # StarWarsArray
-A sequence index like Star Wars Movies.
+A Swift Sequence indexed like Star Wars Movies.
 
 Extremely useful when you need to handle, well... Star Wars Movies ¯\\\_(ツ)_\/¯ 
 
