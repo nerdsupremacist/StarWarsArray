@@ -18,3 +18,37 @@ let package = Package(
     ]
 )
 ```
+
+## Usage
+
+Well you can just instantiate it and load data with the correct indices:
+
+```swift
+enum Movies: Int, CaseIterable {
+    case newHope = 4
+    case empire
+    case jedi
+    case phantomMenace = 1
+    case cloneWars
+    case revengeOfTheSith
+    case forceAwakens = 7
+    case lastJedi
+    case riseOfSkywalker
+}
+
+let array = StawWarsArray(Movies.allCases)
+print(array[4]) // -> newHope
+```
+
+`StawWarsArray` can also be initialized from a literal:
+
+```swift
+let array: StarWarsArray = ["A New Hope", "Empire Strikes Back"]
+print(array[5]) // -> Empire Strikes Back
+```
+
+## Contributions
+Contributions are welcome and encouraged!
+
+## License
+Runtime is available under the MIT license. See the LICENSE file for more info.
