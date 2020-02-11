@@ -50,7 +50,7 @@ print(array[5]) // -> Empire Strikes Back
 You can even run it in `.whatPrequels` mode, where you blatanly ignore the existance of indices 1 to 3:
 
 ```swift
-let array = StawWarsArray(Movies.allCases)
+let array = StawWarsArray(Movies.allCases, mode: .whatPrequels)
 print(array[1]) // -> crashes "I don't recall any prequels?!?!"
 ```
 
