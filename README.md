@@ -1,7 +1,7 @@
 # StarWarsArray
 A sequence index like Star Wars Movies.
 
-Extremely useful when you need to handle, well... Star Wars Movies ¯\_(ツ)_/¯ 
+Extremely useful when you need to handle, well... Star Wars Movies ¯\\_(ツ)_/¯ 
 
 ## Installation
 ### Swift Package Manager
